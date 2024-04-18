@@ -8,14 +8,14 @@ public class Trigger_pop : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Color randomlySelectedColor = GetRandomColor();
-        GetComponent<Renderer>().material.color = randomlySelectedColor;
+        //Color randomlySelectedColor = GetRandomColor();
+        //GetComponent<Renderer>().material.color = randomlySelectedColor;
         PopUpSystem pop = GameObject.FindGameObjectWithTag("UI").GetComponent<PopUpSystem>();
         pop.PopUp(popUp);
     }
     private void OnTriggerExit(Collider other)
     {
-        GetComponent<Renderer>().material.color = new Color(0,0,0);
+        //GetComponent<Renderer>().material.color = new Color(0,0,0);
         PopUpSystem pop = GameObject.FindGameObjectWithTag("UI").GetComponent<PopUpSystem>();
         pop.close();
     }
