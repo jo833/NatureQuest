@@ -12,15 +12,16 @@ public class PopUpSystem : MonoBehaviour
     {
        popUpBox.SetActive(false); 
     }
-
+    
     public void PopUp(string text)
     {
         popUpBox.SetActive(true);
         popUpText.text = text;
-        //animator.SetTrigger("pop");
+        
     }
     public void close()
     {
         popUpBox.SetActive(false);
     }
+    
 }
