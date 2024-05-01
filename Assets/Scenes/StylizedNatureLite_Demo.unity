@@ -4562,7 +4562,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 236165154}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0, w: -0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 24}
+  m_LocalPosition: {x: 0, y: 0, z: 28}
   m_LocalScale: {x: 5.548699, y: 1.8211944, z: 0.3942957}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4570,7 +4570,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -13, y: 6}
+  m_AnchoredPosition: {x: -4, y: 2}
   m_SizeDelta: {x: 5, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &236165156
@@ -4620,8 +4620,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 5
-  m_fontSizeBase: 5
+  m_fontSize: 3
+  m_fontSizeBase: 3
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4656,7 +4656,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -5.7726717, y: 1.9213028, z: 5.4665675, w: 1.6292449}
+  m_margin: {x: -4.7391896, y: 1.9213028, z: 7.083046, w: 1.6292449}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   _SortingLayer: 0
@@ -10413,8 +10413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 70c9287aac61c4f029090fff349f442e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  popUp: Solitary animals, varied diet, can make over 40 different sounds, live in
-    underground dens.
+  popUp: Solitary animals, can make over 40 different sounds.
 --- !u!65 &471266105
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38303,6 +38302,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   popUp: Shibas have more cat-like qualities.
+--- !u!65 &1802157196
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1802157190}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.1760244, y: 2.0066645, z: 2.5766628}
+  m_Center: {x: 0.0003856419, y: -0.0004286765, z: 0.27048135}
 --- !u!1 &1804066825
 GameObject:
   m_ObjectHideFlags: 0
@@ -39942,6 +39962,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 1f9255f471ad9674f83a7adf72ceacfc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1802157194}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 1f9255f471ad9674f83a7adf72ceacfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1802157196}
   m_SourcePrefab: {fileID: 100100000, guid: 1f9255f471ad9674f83a7adf72ceacfc, type: 3}
 --- !u!4 &1854974326 stripped
 Transform:
@@ -40521,6 +40544,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   popUp: The earliest known reference to Griffins was found in the 2nd millennium
     BCE.
+--- !u!65 &1875153249
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1875153243}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.176025, y: 2.0066648, z: 2.5766628}
+  m_Center: {x: 0.00030934825, y: -0.0004439353, z: 0.27047944}
 --- !u!1 &1875387202
 GameObject:
   m_ObjectHideFlags: 0
@@ -45643,6 +45687,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 1f9255f471ad9674f83a7adf72ceacfc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1875153247}
+    - targetCorrespondingSourceObject: {fileID: -8391222552659086748, guid: 1f9255f471ad9674f83a7adf72ceacfc, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1875153249}
   m_SourcePrefab: {fileID: 100100000, guid: 1f9255f471ad9674f83a7adf72ceacfc, type: 3}
 --- !u!4 &2078817589 stripped
 Transform:

@@ -4,5 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StylizedNatureLite_Demo.unity
+    guid: e15b529565a5a75439137aa3e2f23911
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3f5693fd11cf4401288bb322292e2d33, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6b2f624f4b0b14258b6727d144356f11, type: 2}
